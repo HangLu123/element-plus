@@ -284,7 +284,7 @@ export function FormDrawer(
                                 {
                                   default: () =>
                                     resolveComponent(
-                                      cancelText || '取消'
+                                      cancelText || 'Cancel'
                                       // t('el.popconfirm.cancelButtonText')
                                     ),
                                 }
@@ -302,7 +302,7 @@ export function FormDrawer(
                                 {
                                   default: () =>
                                     resolveComponent(
-                                      okText || '确定'
+                                      okText || 'Confirm'
                                       // t('el.popconfirm.confirmButtonText')
                                     ),
                                 }
