@@ -21,7 +21,7 @@
     "version:minor": "lerna version minor",
     "version:preminor": "lerna version preminor --preid beta",
     "version:major": "lerna version major",
-    "release": "lerna publish from-package --yes",
+    "release": "lerna publish from-package --yes --registry=http://192.168.0.168:4873/",
     "lint": "eslint ."
   },
   "devDependencies": {
