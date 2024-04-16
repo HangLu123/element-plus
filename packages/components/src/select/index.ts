@@ -41,18 +41,10 @@ const SelectOption = defineComponent({
                       }
                     )
                   } else {
-                    return h(
-                      ElOption,
-                      {
-                        key: option.value,
-                        ...option,
-                      },
-                      {
-                        default: () => [
-                          resolveComponent(slots?.option ?? option, { option }),
-                        ],
-                      }
-                    )
+                    return h(ElOption, {
+                      key: option.value,
+                      ...option,
+                    })
                   }
                 }),
             }
